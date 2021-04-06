@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRAFOC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick ="hideMenu()"></i>
+                <ul>
+                    <li><a href="">ACCUEIL</a></li>
+                    <li><a href="apropos.html">À PROPOS DE NOUS</a></li>
+                    <li><a href="">QUE FINANÇONS-NOUS ?</a></li>
+                    <li><a href="">NOS PARTENAIRES</a></li>
+                    <li><a href="">OÙ NOUS TROUVER ?</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">BLOG</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick ="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Children Grace's Ark Foundation</h1>
+            <p>Protegéons l'avenir !</p>
+                <a href=""class="hero-btn">Voir nos différents travaux</a>
+
+        </div>
+
+    </section>
+     <!-- -------------------- Offre --------------------------------->
+<section class="mission">
+    <h2>Ce que nous offrons</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="row">
+                <div class="mission-col">
+                    <h3>ÉDUCATION</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Voluptatem ipsam nam facere.</p>
+                </div>
+                <div class="mission-col">
+                        <h3>ESPOIR</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, 
+                            adipisicing elit. Voluptatem ipsam nam facere.</p>
+                    </div>
+                    <div class="mission-col">
+                            <h3>BONHEUR</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, 
+                                adipisicing elit. Voluptatem ipsam nam facere.</p>
+                        </div>
+                </div>
+
+</section>
+
+<!-- ---------------------------- Vie ------------------------------------>
+<section class="vie">
+    <h2>Nos Programmes</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="vie-col">
+            <img src="image/edu3.jpg" alt="">
+            <div class="edu">
+                <h3>MIEUX ÉDUQUER</h3>
+            </div>
+            </div>
+            <div class="vie-col">
+                    <img src="image/vivre3.jpg" alt="">
+                    <div class="edu">
+                        <h3>MIEUX VIVRE</h3>
+                    </div>
+            </div>
+                    <div class="vie-col">
+                            <img src="image/appli3.jpg" alt="">
+                            <div class="edu">
+                                <h3>MIEUX APPLIQUER</h3>
+                            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!------------------------------ Volonte --------------------------->
+<section class="volonte">
+    <h2>Notre Mission</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="volonte-col">
+            <img src="image/atmos.png">
+            <h3>Créer une atmosphère agréable aux enfants</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Alias quia suscipit sapiente obcaecati voluptates sed soluta.</p>
+        </div>
+        <div class="volonte-col">
+                <img src="image/sourire.png">
+                <h3> Leur façonner un chemin d'espoir</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Alias quia suscipit sapiente obcaecati voluptates sed soluta.</p>
+            </div>
+            <div class="volonte-col">
+                    <img src="image/joie.png">
+                    <h3>Assurer leur Destinée</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Alias quia suscipit sapiente obcaecati voluptates sed soluta.</p>
+                </div>
+        </div>
+            
+</section>
+
+<!----------------------------- Call to Action ------------------------------>
+<section class="cta">
+    <h1>Pour nous supporter</h1>
+    <a href="" class="hero-btn">CONTACTEZ-NOUS</a>
+</section>
+
+<!-- ------------------ Footer ------------------------ -->
+<section class="footer">
+    <h4>À propos de nous</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Dignissimos dolorum sit provident officia velit,facilis minus</br>
+        assumenda ad adipisci sed nemo ab consectetur quam.</p>
+
+                <span>&copy; 2021 Children Grace's Ark Foundation | Tous droits réservés</span>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+
+</section>
+
+<!--------------------- java script pour Toggle Menu ----------------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"
+             }
+             function hideMenu() {
+            navLinks.style.right = "-200px";
+            }
+    </script>
+ 
+</body>
+</html>
